@@ -1,0 +1,1088 @@
+/*Schriftimportation*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+/*Webseiten einstellungen / Standart-Einstellungen*/
+*, html{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+ 
+/*Allgemeine Schriftgrössen*/
+p, label{
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+ 
+a{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+ 
+a:hover{
+color: red;
+}
+
+h1{
+  font-family: "Lato";
+  font-size: 36px;
+}
+
+h2{
+font-family: "Lato";
+font-size: 18px;
+font-weight: 900;
+ 
+}
+/*Hintergrundfarbe*/
+body{
+    background-color: #FDEEDC;
+}
+ 
+/*Header*/
+header{
+    background-color: #FFD8A9;
+}
+ 
+/*Oberer Header*/
+#upperheader{
+    display: flex;
+   align-items: center;
+}
+ 
+#logo{
+    margin-left:40px;
+    margin-top: 17px;
+}
+ 
+/*Ganze Suchleiste*/
+#searchbar{
+ 
+  box-shadow: 1px 1px 5px gray;  
+  margin-left: 65px;
+  background-color: #E38B29;
+ 
+}
+
+#searchbarkunden{
+  display: flex;
+  box-shadow: 1px 1px 2px gray;  
+  margin-left: 40px;
+  margin-top: 60px;
+  
+ 
+}
+ 
+/*Texteingabe*/
+#searchbox{
+    border: none;
+    width: 580px;
+    height: 65px;
+    background: #ffff;
+    font-size:16px;
+    padding-left: 8px;
+     
+ 
+/*Icon zum suchen*/
+}
+
+#searchboxkunden{
+  border: solid gray;
+  width: 150px;
+  height: 30px;
+  background: #ffff;
+  font-size:8px;
+  padding-left: 8px;
+}
+
+/*Icon zum suchen*/
+
+#searchlogo{
+    padding:0px 12px 0px 12px;
+    position: relative;
+    top: 12px;
+    
+}
+
+#searchlogokunden{
+
+  background-color: gray;  
+}
+ 
+/*Logos für Optionen*/
+#options{
+    margin-left: 120px;
+   
+   
+}
+ 
+#optionimages{
+    display: flex;
+    align-items: center;
+}
+
+/* Optionimages */
+#optionimages{
+  position:relative;
+  left:-1.5px;
+ }
+ 
+ 
+ 
+.optionimage{
+    margin-left: 37px;
+   
+   
+}
+ 
+/*Texte unter den Logos*/
+#optiontexts{
+ display: flex;
+ 
+ 
+}
+ 
+.optiontext{
+    margin-left: 22px;
+    margin-top: 8px;
+}
+ 
+ 
+ 
+ 
+/*Unterer Headerteil*/
+#lowerheader{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+ 
+.navelements{
+ color: black;
+ text-decoration:none;
+ font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------FOOTER-------------------------------------------- */
+
+
+
+.footer {
+  background-color: #e38b29; /* Hintergrundfarbe anpassen */
+  color: #ffffff; /* Textfarbe */
+  padding: 40px 100px; /* Padding oben/unten, rechts/links */
+  display: flex; /* Verwende Flexbox für das Layout */
+  flex-wrap: wrap; /* Erlaubt den Inhalt in neue Zeilen zu gehen */
+  align-items: flex-start; /* Ausrichtung der Links */
+  justify-content: space-between; /* Gleichmäßiger Abstand zwischen den Abschnitten */
+  font-family:'Montserrat', sans-serif; /* Schriftart anpassen */
+  margin-top: 100px; /* Abstand zum Hauptinhalt */
+}
+
+.footer-section ul {
+  list-style: none; /* Entfernt die Listenpunkte */
+  padding: 0; /* Entfernt den Standardabstand */
+}
+
+.footer-section ul li {
+  margin-bottom: 15px; /* Abstand zwischen den Listenelementen */
+}
+
+.footer-bottom {
+  width: 100%; /* Footer-Bottom nimmt die volle Breite ein */
+  border-top: 2px solid #000000; /* Trennlinie */
+  padding-top: 20px; /* Abstand nach oben */
+  text-align: center; /* Zentrierung des Inhalts */
+  margin-top: 20px; /* Abstand von den Links darüber */
+  font-size: 0.9em; /* Kleinere Schriftgröße */
+}
+
+.footer-bottom p {
+  margin: 5px 0; /* Abstand zwischen den Paragraphen */
+}
+
+
+/* --------------------------------------------- FOOTER ENDE --------------------------------------------------*/  
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/*Bücherseite*/
+#sortierabschnitt{
+  display: flex;
+  margin: 40px 0px 0px 40px;
+  gap: 20px;
+}
+
+
+#sortieren:hover #sortierlogo {
+  background-color: #E96808; /* Dunkle Orange Farbe nur für das Sortierlogo beim Hover über #sortierabschnitt */
+  transition: background-color 0.5s ease; /* Übergangseffekt für die Hintergrundfarbe */
+}
+
+
+
+
+#sortieren{
+  width: 490px;
+  
+}
+
+#optionendar{
+  display: flex;
+}
+
+
+#sortierknopf{
+  border: none;
+background: none;
+cursor: pointer;
+
+}
+
+
+
+
+
+
+#sortierlogo{
+  border-radius:50px;
+  background-color: #F1A661;
+  padding: 7px;
+}
+#sortiertext{
+ 
+  margin-top: 7px;
+  font-weight: 400;
+ 
+}
+
+#subcontent{
+display:none;
+position: absolute;
+left: 0;
+background-color:#e67824;
+opacity: 0.9;
+z-index: 1;
+  margin-left:40px ;
+ 
+  width: 350px;
+  height: 300px;
+  background-size: 50% auto;
+  color: white;
+  padding-left: 12px;
+}
+
+.subcontentk{
+  margin-top: 50px;
+}
+
+#sortieren:hover #subcontent{
+  display: flex;
+  position:absolute;
+  border-top: black solid;
+  gap: 100px;
+}
+
+.sortierinputs, .sortiernumbox{
+  margin-left: 10px;
+  position: absolute;
+}
+.sortierinputs{
+  margin-top: 4px;
+}
+.filtrierbox{
+width: 80px;
+}
+
+
+
+#bucheigenschaften{
+  display: flex;
+ margin-left:20px ;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+#bucheigenschaften2{
+  display: flex;
+  gap: 120px;
+  margin-left: 70px;
+}
+
+#kundeneigenschaften{
+  display: flex;
+ margin-left:20px ;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+
+#kundeneigenschaften2{
+  display: flex;
+  gap: 85px;
+  margin-left: 70px;
+}
+
+.nachname{
+  margin-right: 40px;
+}
+
+
+.mail{
+  margin-right: 120px;
+}
+#anzeigeBücher{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px 30px 30px 30px;
+}
+.buch{
+  display: flex;
+  gap: 30px;
+ 
+}
+
+#buchlogo{
+  margin-left: 20px;
+ margin-bottom: 8px;
+ margin-top: 20px;
+}
+
+.buchtitel{
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 7px;
+}
+
+.kategorie{
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 41px;
+ 
+ 
+}
+
+.katalog{
+  margin-top: 40px;
+  width: 100px;
+  margin-left: 93px;
+
+}
+
+.autor{
+  margin-left: 29px;
+  margin-top: 40px;
+  width: 100px;
+ 
+}
+
+.nummer{
+  margin-top: 40px;
+  width: 50px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.zustand{
+  margin-top: 40px;
+  width: 50px;
+  margin-left: 100px;
+}
+
+
+
+/*Kunden*/
+.vorname{
+  width: 50px;
+  margin-top: 40px;
+  margin-left: 8px;
+}
+.name{
+margin-left: 67px;
+width: 50px;
+  margin-top: 40px;
+
+}
+
+.email{
+  margin-top: 40px;
+  width: 50px;
+  margin-left: 16px;
+}
+
+.beitritt{
+  margin-top: 40px;
+  width: 90px;
+  margin-left: 130px;
+}
+
+.kid{
+  margin-top: 40px;
+  width: 90px;
+  margin-left: 180px;
+}
+
+.mailknt{
+  margin-top: 40px;
+  width: 90px;
+}
+
+
+
+#bücherliste form {
+  display: flex; /* Nutzt Flexbox für die horizontale Anordnung */
+  justify-content: center; /* Zentriert die Buttons in ihrem Container */
+  align-items: center; /* Vertikale Ausrichtung */
+}
+
+
+
+
+
+
+
+
+
+
+/* Stil für das Modal */
+.modal {
+  display: none; /* Versteckt das Modal standardmäßig */
+  position: fixed; /* Bleibt fest an der gleichen Stelle im Fenster */
+  z-index: 1; /* Stellt sicher, dass das Modal über anderen Elementen liegt */
+  left: 0;
+  top: 0;
+  width: 100%; /* Volle Breite */
+  height: 100%; /* Volle Höhe */
+}
+
+/* Stil für den Inhalt des Modals */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% von oben und zentriert */
+  padding: 20px;
+  border: none;
+  width: 30%; /* 80% der Fensterbreite */
+}
+
+/* Stil für das Schließen-Symbol */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+#seite {
+background-color: #FDEEDC;
+padding: 5px 20px;
+font-size: 16px;;
+}
+
+
+
+
+
+
+.page-nav {
+  background-color: #F1A661; /* Hintergrundfarbe */
+  padding: 19px 20px; /* Innenabstand */
+  font-size: 19px; /* Schriftgröße */
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif; /* Schriftart */
+  text-decoration: none; /* Entfernt die Unterstreichung von Links */
+  color: #ffffff; /* Schriftfarbe */
+  border: none; /* Kein Rahmen */
+  cursor: pointer; /* Cursor-Stil */
+}
+
+/* Stil für den "Zurück"-Button */
+.page-nav[href*="seite"]:first-of-type,
+.page-nav.disabled:first-of-type {
+  border-radius: 13px 0 0 13px; /* Nur obere linke und untere linke Ecke gebogen */
+}
+
+/* Stil für den "Weiter"-Button */
+.page-nav[href*="seite"]:last-of-type,
+.page-nav.disabled:last-of-type {
+  border-radius: 0 13px 13px 0; /* Nur obere rechte und untere rechte Ecke gebogen */
+}
+
+/* Stil für deaktivierte Buttons */
+.page-nav.disabled {
+  background-color: #ddd; /* Hintergrundfarbe für deaktivierte Buttons */
+  color: #aaa; /* Schriftfarbe für deaktivierte Buttons */
+  cursor: not-allowed; /* Cursor für nicht verfügbare Aktion */
+}
+
+
+
+
+
+
+#pagination-wrapper{
+  filter: drop-shadow( 0px 4px 3px rgba(0, 0, 0, 0.5));
+}
+
+
+
+
+
+
+
+/* Gemeinsame Stile für alle Quadrat-Buttons */
+.page-box, #custom-page {
+  display: inline-block; /* Elemente nebeneinander anzeigen */
+  background-color: #FFD8A9; /* Hintergrundfarbe */
+  color: #ffffff; /* Schriftfarbe */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; /* Schriftart */
+  padding-top: 22.5px;
+  padding-bottom: 20px;
+  padding-left: 29px;
+  padding-right: 29px;
+  font-size: 16px; /* Schriftgröße */
+  cursor: pointer; /* Cursor-Stil */
+  text-decoration: none;
+}
+
+/* Stil für die aktuelle Seite */
+.page-box.current {
+  border: #000000; /* Hintergrundfarbe für die aktuelle Seite */
+}
+
+
+
+/* Wenn der Button #custom-page zusätzliche Stile braucht */
+#custom-page {
+  border: none;
+}
+
+
+
+
+
+
+
+
+  .page-box.first-page {
+    box-shadow: inset 0 0 0 1px #000; /* Fügt einen inneren Schatten hinzu, der wie ein Border aussieht */
+    font-weight: 700; /* Fettgedruckte Schrift */
+  }
+  
+
+
+  /* Reset-Button */
+#subcontent div input[type=reset] {
+  background-color: white; /* Weiße Hintergrundfarbe */
+  color: black; /* Schwarze Schriftfarbe */
+  padding: 8px 16px; /* Geringeres Padding für einen kleineren Button */
+  border: 2px solid black; /* Schwarzer Rand */
+  border-radius: 4px; /* Leicht gerundete Ecken */
+  text-transform: uppercase; /* Großbuchstaben */
+  font-size: 14px; /* Schriftgröße anpassen */
+  cursor: pointer; /* Cursor-Stil ändern, um Klickbarkeit anzuzeigen */
+  transition: background-color 0.3s, transform 0.2s; /* Glatter Übergang für Hover-Effekte */
+}
+
+
+
+/* Submit-Button */
+#submit {
+  font-size: 14px; /* Schriftgröße anpassen */
+  background-color: white; /* Weiße Hintergrundfarbe */
+  color: black; /* Schwarze Schriftfarbe */
+  padding: 8px 16px; /* Geringeres Padding für einen kleineren Button */
+  border: 2px solid black; /* Schwarzer Rand */
+  border-radius: 4px; /* Leicht gerundete Ecken */
+  text-transform: uppercase; /* Großbuchstaben */
+  cursor: pointer; /* Cursor-Stil ändern, um Klickbarkeit anzuzeigen */
+  transition: background-color 0.3s, transform 0.2s; /* Glatter Übergang für Hover-Effekte */
+  margin-left: 50px;
+}
+
+
+/* Input */
+#subcontent div input[type=reset]{
+  transform:translatex(-120px) translatey(35px) !important;
+ }
+
+ 
+      /* CSS styles for the "hinzufuegenBucher" section */
+    .kundenhinzufügen{
+      margin-left:35px ;
+      margin-top: 30px;
+    }
+    .buecherhinzufügen{
+      margin-left: 650px;
+      margin-top: 35px;
+    }
+
+    #box {
+        display: none;
+        background-color: #FFD8A9;
+        width: 410px;
+        height: 320px;
+        right: 0; /* Move the box to the left when it grows */
+         /* Move the box down when it grows */
+        position: absolute;
+         /* Add margin-top to create distance */
+        border: 2px solid orange; /* Add orange stroke */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+        font-family: 'Lato', sans-serif;
+    }
+.boxbuecher{
+  width: 590px !important
+  ;
+}
+    #hinzufuegen img {
+        transition: all 0.3s;
+    }
+
+    /* Show the box when hovering over "hinzufuegen" */
+    #hinzufuegen:hover #box {
+        display: block;
+        z-index: 9999;
+    }
+
+    /* Change the image when hovering over "hinzufuegen" */
+    #hinzufuegen:hover img {
+        content: url("../Images/hinzufugen.png");
+    }
+
+    .form-field {
+        border: 2px solid orange;
+        padding-bottom: 50px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .form-nummer {
+        border: 2px solid orange;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        border-radius: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .form-label {
+        margin-left: 60px;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+    #hinzufügenform {
+        display: flex;
+        gap: 50px; /* Add gap between the two divs */
+        font-family: 'Lato', sans-serif;
+    }
+
+    .radio-group {
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .filtrierboxadd{
+      width: 120px;
+      height: 60px;
+      border: solid orange;
+      margin-left: 60px;
+    }
+    
+    #addbzustand{
+      height: 30px !important;
+    }
+
+    .submit-button input[type="submit"] {
+        background-color: #FF9900; /* Orange Hintergrundfarbe */
+        color: white; /* Textfarbe */
+        border: 2px solid #F1A661; /* Blaue Umrandung */
+        padding: 20px 35px; /* Innenabstand */
+        border-radius: 6px; /* Abgerundete Ecken */
+        font-family: 'Lato', sans-serif; /* Schriftart */
+        font-weight: bold; /* Fettgedruckter Text */
+        font-size: 18px; /* Schriftgröße */
+        cursor: pointer; /* Mauszeiger auf "Pointer" setzen */
+        margin-top: 230px;
+        margin-right: 40px;
+    }
+
+
+
+    /*Hinzufügen Kunde*/
+
+           
+
+   
+      #hinzufuegen img {
+          transition: all 0.3s;
+      }
+
+      /* Show the box when hovering over "hinzufuegen" */
+      #hinzufuegen:hover #box {
+          display: flex;
+          z-index: 9999;
+          gap: 30px;
+      }
+
+      /* Change the image when hovering over "hinzufuegen" */
+      #hinzufuegen:hover img {
+          content: url("../Images/hinzufugen.png");
+      }
+
+
+
+
+
+      /* Stil für das Formular */
+      .form-field-name {
+          border: 1.5px solid orange;
+          padding-bottom: 30px;
+          padding-right: 30px;
+          margin-bottom: 25px;
+          margin-left: 10px;
+          border-radius: 5px;
+          font-family: 'Lato', sans-serif;
+
+      }
+
+      
+
+
+    .form-field-geburtstag {
+      border: 1.5px solid orange;
+      
+      margin-bottom: 25px;
+      padding-left: 40px;
+      margin-left: 10px;
+      border-radius: 5px;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+     
+  }
+
+  .form-field-geschlecht {
+
+border: 1.5px solid orange;
+      
+margin-bottom: 25px;
+width: 175px;
+margin-left: 10px;
+border-radius: 5px;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+  }
+
+     
+      .form-label { /* TEXT */
+          margin-left: 60px;
+          font-family: 'Lato', sans-serif;
+      }
+
+    
+      .form-label-emailtext { /* TEXT */
+        margin-left: 39px;
+        font-family: 'Lato', sans-serif;
+        
+    }
+
+    .geburtstagtext { /* TEXT */
+      
+      font-family: 'Lato', sans-serif;
+      margin-left: 47px;
+  }
+      
+
+  .kontakttext {
+    font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 400;
+
+  }
+
+      .radio-group {
+          font-family: 'Lato', sans-serif;
+          margin-bottom: 10px;
+          color: white;
+      }
+
+      .submit-buttonk input[type="submit"] {
+          background-color: #FF9900; /* Orange Hintergrundfarbe */
+          color: white; /* Textfarbe */
+          border: 2px solid #F1A661; /* Blaue Umrandung */
+          padding: 20px 35px; /* Innenabstand */
+          border-radius: 6px; /* Abgerundete Ecken */
+          font-family: 'Lato', sans-serif; /* Schriftart */
+          font-weight: bold; /* Fettgedruckter Text */
+          font-size: 18px; /* Schriftgröße */
+          cursor: pointer; /* Mauszeiger auf "Pointer" setzen */
+       
+      }
+
+
+
+
+      
+/*Loginfenster*/
+
+.dropdownfield {
+
+  border: solid #F1A661 1.5px;
+  width: 265px;
+  height: 30px;
+border-radius: 6px;
+margin-left: 15px;
+margin-bottom: 30px;
+margin-top: 5px;
+
+}
+
+
+.dropdownfieldtext {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 750;
+  margin-left: 15px;
+
+}
+
+
+
+
+
+  .dropdown-content {
+    display: none;
+ position: absolute;
+  background-color: #FFD8A9;
+
+top: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 300px;
+  height: 390px;
+
+  z-index: 1;
+  border-top: solid #000 3px;
+
+  }
+
+  /* Stil für den Konto-Link */
+  .optiontext {
+    cursor: pointer;
+  }
+
+  .anmeldung {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+
+  .password-reset-link {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight:400;
+    color:#000000;
+    margin-left: 15px;
+ 
+  }
+
+  .password-reset-link2 {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+  .anmeldenbutton  {
+
+    background-color: #E96808;
+border: solid #F1A661 1.5px;
+border-radius: 6px;
+width: 265px;
+height: 35px;
+margin-left: 15px;
+color: white;
+font-family: "Lato", sans-serif;
+font-weight: 1000;
+font-size: 16px ;
+  }
+ 
+ 
+/*Bearbeiten*/
+
+     /* CSS für das Popup-Fenster */
+     .popupContainer {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000;
+    }
+    
+    /* CSS für den Inhalt des Popups */
+    .popupContent {
+      background-color: #FFD8A9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    
+    /* CSS für die Buttons im Popup */
+    .popupButton {
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+    
+    #editButton {
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+    /* CSS für den "Löschen"-Button */
+    #deleteButton {
+      background-color: red;
+      color: white;
+    }
+    
+    .bearbeitenbutton {
+      position: absolute;
+      margin-left: 470px;
+      margin-top: 25px;
+      background-color: transparent;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      left: 450px;
+    }
+    
+    .bearbeitenicon {
+      width: 50px;
+      height: 50px;
+    }
+    
+    /* Stil für den Schließen-Button (X) */
+    .closeButton {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /*Kunden bearbeiten*/
+  
+  /* CSS für das Popup-Fenster */
+.popupContainer {
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1000;
+}
+
+/* CSS für den Inhalt des Popups */
+.popupContent {
+background-color: #FFD8A9;
+padding: 20px;
+border-radius: 8px;
+}
+
+/* CSS für die Buttons im Popup */
+.popupButton {
+font-family: "Lato", sans-serif;
+font-weight: bold;
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+border-radius: 4px;
+margin-right: 10px;
+}
+
+#editButton {
+background-color: #4CAF50;
+color: white;
+}
+
+/* CSS für den "Löschen"-Button */
+#deleteButton {
+background-color: red;
+color: white;
+}
+
+.bearbeitenbuttonku {
+  margin-left: 250px;
+  margin-top: 20px;
+background-color: transparent;
+border: none;
+padding: 10px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.bearbeitenicon {
+width: 50px;
+height: 50px;
+}
+
+/* Stil für den Schließen-Button (X) */
+.closeButton {
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 20px;
+cursor: pointer;
+}
+
+
+  
+
+#logout{
+  background-color: transparent;
+  border: none;
+  font-family: "Lato";
+font-size: 18px;
+font-weight: 900;
+}
+
+
+
+

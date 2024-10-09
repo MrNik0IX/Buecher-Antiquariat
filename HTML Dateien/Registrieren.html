@@ -1,0 +1,88 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="stylesheet" href="../Konfigurationen/registration.css"> <!-- Externe CSS-Datei -->
+    <title>Registration</title>
+</head>
+<body>
+  <header>
+    <div id="upperheader">
+    <a href="index.php"><img src="../Images/logo.svg" alt="our nice logo" id="logo"></a> <!-- Logo-Bild -->
+    <div id="searchbar">
+      <input type="text" name="search" id="searchbox" placeholder="Titel, Autor*in, Stichwort, ISBN"> <!-- Sucheingabefeld -->
+      <img src="../Images/search.svg" alt="the search logo" id="searchlogo" width="37"> <!-- Suchsymbol -->
+    </div>
+    <div id="options">
+      <div id="optionimages">
+    <img src="../Images/building.svg" width="50" class="optionimage" alt="Buildingimage"> <!-- Optionsbild -->
+    <img src="../Images/telephone.svg" width="50" class="optionimage" alt="Phoneimage"> <!-- Optionsbild -->
+    <img src="../Images/person.svg" width="50" class="optionimage" alt="Personimage"> <!-- Optionsbild -->
+      </div>
+    <div id="optiontexts">
+      <h2 class="optiontext">Über Uns</h2> <!-- Optionstext -->
+      <h2 class="optiontext">Kontakt</h2> <!-- Optionstext -->
+      
+      
+      <h2 class="optiontext" onclick="toggleDropdown()">Konto</h2> <!-- Optionstext -->
+      <div class="dropdown-content" id="myDropdown"> 
+        <a href="index.php" class= "anmeldungbutton">Anmelden</a> <!-- Dropdown-Link -->
+      
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="lowerheader">
+<h2 class="navelements"><a href="buecher.php" class="navelements">Bücher</a></h2> <!-- Navigationslink -->
+<h2 class="navelements"><a href="" class="navelements">E-Books</a></h2> <!-- Navigationslink -->
+  </div>
+
+
+  
+  </header>
+
+
+  
+
+  <script>
+// JavaScript-Code zum Ein- und Ausblenden des Dropdown-Divs
+function toggleDropdown() {
+  var dropdown = document.getElementById("myDropdown");
+  if (dropdown.style.display === "none") {
+    dropdown.style.display = "block";
+  } else {
+    dropdown.style.display = "none";
+  }
+}
+</script>
+    <div class="registration-form">
+        <h2 class="form-title">Registration</h2>
+        <form action="registration.php" method="POST">
+            <label for="name" class="regitext">Name:</label>
+            <input type="text" id="name" class="regifield" name="name" required>
+            <br>
+            <label for="vorname" class="regitext">Vorname:</label>
+            <input type="text" id="vorname" class="regifield" name="vorname" required>
+            <br>
+            <label for="benutzername" class="regitext">Benutzername:</label>
+            <input type="text" id="benutzername" class="regifield" name="benutzername" required>
+            <br>
+            <label for="email" class="regitext">Email:</label>
+            <input type="email" id="email" class="regifield" name="email" required>
+            <br>
+            <label for="passwort" class="regitext">Passwort:</label>
+            <input type="password" id="passwort" class="regifield" name="passwort" required>
+            <br>
+            <input type="submit" value="Registrieren" class="register-button">
+            <a href="index.php" class="password-reset-link2">Konto anmelden</a>
+        </form>
+    </div>
+</body>
+</html>
